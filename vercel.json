@@ -1,4 +1,3 @@
-// Build trigger: 1793167912
 {
   "buildCommand": "npm run build",
   "devCommand": "npm run dev",
