@@ -1,0 +1,6 @@
+{
+  "name": "Kandang Pintar",
+  "description": "Sistem Manajemen Peternakan Ayam Kampung Berbasis Web (PWA) + AI",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

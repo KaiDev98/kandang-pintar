@@ -1,0 +1,17 @@
+{
+  "name": "Kandang Pintar",
+  "short_name": "KandangPintar",
+  "description": "Sistem Manajemen Peternakan Ayam Kampung Berbasis Web (PWA) + AI",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F1F5EF",
+  "theme_color": "#1E6B47",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

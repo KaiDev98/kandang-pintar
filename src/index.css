@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #F1F5EF;
+  --surface: #FFFFFF;
+  --ink: #1B2B22;
+  --ink-soft: #4F5B52;
+  --line: #D5DED3;
+  --primary: #1E6B47;
+  --record: #F2B632;
+  --ok-bg: #DDF1E3;
+  --ok-ink: #14663A;
+  --warn-bg: #FFF4D6;
+  --warn-ink: #8A5A00;
+  --act-bg: #FBE3E0;
+  --act-ink: #9C1C16;
+  --danger: #B3261E;
+  --radius-card: 16px;
+  --radius-control: 12px;
+  --radius-sheet: 24px;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg);
+  color: var(--ink);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.num {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom scrollbar for clean mobile-first view */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--line);
+  border-radius: 999px;
+}
