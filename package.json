@@ -22,6 +22,8 @@
     "start": "NODE_ENV=production tsx server.ts",
     "build": "vite build",
     "preview": "vite preview",
+    "deploy": "vercel deploy --prod",
+    "deploy:staging": "vercel deploy",
     "clean": "rm -rf dist server.js logs",
     "lint": "tsc --noEmit",
     "test": "node --test tests/**/*.test.ts"
